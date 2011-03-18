@@ -1,12 +1,11 @@
 jQuery Perlin Noise Plugin
 ==========================
 
-Written by [Ned Jackson Lovely](http://www.njl.us).
---------------------------------------------------
+####Written by [Ned Jackson Lovely](http://www.njl.us).
 
 This plugin will insert a semi-transparent piece of Perlin noise into the
 background-image of an element. [Perlin noise][perlinfaq] is a technique 
-developed by [Ken Perlin][kenperlin]. The technique creates a noise that is 
+developed by [Ken Perlin][kenperlin]. The technique creates noise that is 
 random but still has some structure, making it good for adding textures that
 give a "real world" feel. Please take a look at the [demo][demo] to get 
 an idea of how this works.
@@ -16,7 +15,7 @@ an idea of how this works.
 
 This plugin was directly inspired by the work [Daniel Rapp][danielrapp] did 
 with his [Noisy][noisy] jQuery Plugin. Noisy creates noise that is more like
-the television static. It can create some very nice, subtle effects with much 
+television static. It can create some very nice, subtle effects with much 
 less computational effort than this plugin. Daniel wrote some really beautiful
 code, and I had more than a few insights reading it. In particular, I stole
 his knowledge of and correction for some subtle browser misfeatures wholesale.
