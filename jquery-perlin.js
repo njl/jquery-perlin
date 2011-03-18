@@ -33,7 +33,7 @@ $.fn.perlin = function(options) {
 		for(var i = 0; i < 4; ++i){
 			var xq = xb+i%2, yq = yb+~~(i/2),
 			grad = gradients[(yq+permutations[xq])&0xFF];
-			forces[i] = grad[0]*(xf-xq) + grad[1]*(yf-yq));
+			forces[i] = grad[0]*(xf-xq) + grad[1]*(yf-yq);
 		}
 		var sx = xf - ~~xf, sy = yf - ~~yf,
 		    xe = ease(sx), ye = ease(sy),
@@ -101,7 +101,7 @@ $.fn.perlin.defaults = {
 	'tileSize' : 200,
 	'fallback' : '',
 	'opacity' : .1,
-	'tileable': false,
+	'tileable': true,
 	'color': [0,0,0]
 };
 
