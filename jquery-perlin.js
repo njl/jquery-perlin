@@ -13,7 +13,7 @@ $.fn.perlin = function(options) {
 	if(!canvas.getContext){return finish();}
 
 	if(typeof options.color == 'string'){
-		options.color = options.color.replace(' ','');
+		options.color = options.color.replace(/ /g,'');
 	    	var digits = 
 			/(.*?)rgb\((\d+),(\d+),(\d+)\)/.exec(options.color);
 		options.color = [parseInt(digits[2]), parseInt(digits[3]),
