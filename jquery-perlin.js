@@ -1,3 +1,10 @@
+/* jQuery Perlin
+ * http://www.njl.us/blog/jquery-perlin/
+ *
+ * Copyright 2011, Ned Jackson Lovely
+ * Released under the MIT License
+ */
+
 (function( $ ){
 $.fn.perlin = function(options) {
 	options = $.extend({}, $.fn.perlin.defaults, options);
