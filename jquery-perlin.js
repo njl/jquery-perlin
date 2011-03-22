@@ -16,9 +16,8 @@ $.fn.perlin = function(options) {
 	function finish(uri){
 		if(!uri){uri = options.fallback;}
 		return self.each(function(){
-			$(self).css("background-image", 
-				"url("+uri+"), " + 
-					$(self).css("background-image"));});
+			$(this).css("background-image", "url("+uri+")");
+		});
 	}
 
 	function ease(x){
