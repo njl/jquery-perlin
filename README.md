@@ -11,7 +11,7 @@ give a "real world" feel. Please take a look at the [demo][demo] to get
 an idea of how this works.
 [perlinfaq]: http://webstaff.itn.liu.se/~stegu/TNM022-2005/perlinnoiselinks/perlin-noise-math-faq.html 
 [kenperlin]: http://cs.nyu.edu/~perlin/ 
-[demo]: http://www.njl.us/blog/jquery-perlin/
+[demo]: http://www.njl.us/projects/jquery-perlin/
 
 This plugin was directly inspired by the work [Daniel Rapp][danielrapp] did 
 with his [Noisy][noisy] jQuery Plugin. Noisy creates noise that is more like

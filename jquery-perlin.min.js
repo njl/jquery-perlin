@@ -1,5 +1,5 @@
 /* jQuery Perlin
- * http://www.njl.us/blog/jquery-perlin/
+ * http://www.njl.us/projects/jquery-perlin/
  *
  * Copyright 2011, Ned Jackson Lovely
  * Released under the MIT License
